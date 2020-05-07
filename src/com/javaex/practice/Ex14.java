@@ -20,5 +20,7 @@ public class Ex14 {
             }
         }
         System.out.println(tax);
+
+        taxCalc.close();
     }
 }
