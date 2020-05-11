@@ -16,7 +16,7 @@ public class Ex14 {
                 for(int j=0;j<=i;j++) {
                     sum += section[j];
                 }
-                tax = (i+1)*income*rate - rate*sum;
+                tax = rate*((i+1)*income - sum);
             }
         }
         System.out.println(tax);
